@@ -1,0 +1,98 @@
+
+/* HEADER CSS */
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FBF7F4;
+  color: #3E2723;
+}
+.header{
+  background: #C05000;
+  color: #fff;
+  padding: 18px 16px;
+}
+.header .logo{
+  color: #fff;
+  font-weight:700;
+  text-decoration:none;
+  font-size: 18px;
+}
+.navbar a{
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: 0.3s;
+}
+.navbar a:hover{
+  color:#FFB84D;
+  font-weight: bold;
+}
+.icons a, .icons .fas{
+  color:#fff;
+  margin-left:12px;
+  cursor:pointer;
+}
+.profile .btn, .btn{
+  background:#C05000;
+  color:#fff;
+  padding:8px 16px;
+  border-radius:6px;
+  text-decoration:none;
+  transition: 0.3s;
+}
+.profile .btn:hover, .btn:hover{
+  background:#FFB84D;
+  color:#3E2723;
+}
+@media (max-width:768px){
+  .navbar{display:none}
+}
+
+
+foods
+.container {
+    position: relative;
+    min-height: 100hv;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+    box-sizing: border-box;
+}
+
+.container .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+.image-container {
+    width: 94%;
+    padding: 12px;
+    margin-left: 3%;
+    overflow-x: auto;
+    margin-right: 3%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
