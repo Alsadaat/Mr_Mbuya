@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($stmt->num_rows === 1) {
             $stmt->bind_result($id, $name, $hash);
             $stmt->fetch();
-            if (password_verify($password, $hash)) {
+            if ($hash && password_verify($password, $hash)) {
                 $_SESSION['user_id'] = $id;
                 $_SESSION['user_name'] = $name;
                 header('Location: menu.php');
